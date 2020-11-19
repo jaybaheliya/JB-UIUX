@@ -1014,7 +1014,7 @@
         text-align: center;
         line-height: 60px;
         margin: 0px auto;
-        display: inline-block;
+        display: block;
         margin-top: 8px;
     }
 
