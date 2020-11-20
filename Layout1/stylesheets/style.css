@@ -15,6 +15,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
 @import url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese");
 @import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+@import url("fontAwesomeAnimation.css");
 
 /**
   *	Reset
@@ -441,7 +442,11 @@ h4 {
 }
 
 .container {
+<<<<<<< Updated upstream
     width: 1300px;
+=======
+    width: 1250px;
+>>>>>>> Stashed changes
 }
 
 .clearfix {
@@ -703,8 +708,8 @@ ul.flat-unstyled li > ul > li > a {
 
 /* Header Middle */
 .header-middle #logo {
-    line-height: 90px;
-    max-width: 70%;
+    line-height: 100px;
+    max-width: 90%;
 }
 
 .header-middle .grid-left #logo {
@@ -863,7 +868,7 @@ ul.flat-unstyled li > ul > li > a {
 }
 
 .top-search form.form-search .box-search input {
-	padding-left:191px;
+	/*padding-left:191px;*/
 	padding-top:11px;
 	height:49px;
 }
@@ -1515,7 +1520,7 @@ ul.flat-unstyled li > ul > li > a {
 /* Main Navigation
 -------------------------------------------------------------- */
 #mainnav {
-	padding-left:30px;
+	/*padding-left:30px;*/
 	float:left;
 }
 
@@ -1532,7 +1537,7 @@ ul.flat-unstyled li > ul > li > a {
 #mainnav ul.menu > li > a {
 	display:inline-block;
 	color:#fefefe;
-	font-size:14px;
+	font-size:16px;
 	font-weight:500;
 	padding:0 21.5px;
 	border-right:1px solid #fec579;

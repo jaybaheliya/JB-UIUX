@@ -345,6 +345,44 @@
             });
         };// slide Most Viewer
 
+    var slideMostViewerOpenbox = function () {
+        $(".owl-carousel-openbox").owlCarousel({
+            autoplay: true,
+            nav: true,
+            dots: true,
+            autoplayTimeout: 10000,
+            responsive: true,
+            margin: 30,
+            loop: true,
+            items: 5,
+            responsive: {
+                0: {
+                    items: 2,
+                    dots: false,
+                    margin: 10,
+                },
+                479: {
+                    items: 2,
+                    dots: false
+                },
+                600: {
+                    items: 3,
+                    dots: false
+                },
+                768: {
+                    items: 4,
+                    margin: 20,
+                },
+                991: {
+                    items: 4
+                },
+                1200: {
+                    items: 5
+                }
+            }
+        });
+    };// slide Most Viewer
+
         var slideMostViewer_s2 = function() {
             $(".owl-carousel-4").owlCarousel({
                 autoplay:true,
@@ -1230,6 +1268,7 @@
         slideProduct();
         slideCounter();
         slideMostViewer();
+        slideMostViewerOpenbox();
         slideMostViewer_s2();
         slideMostViewer_s3();
         slideMostViewer_s4();
